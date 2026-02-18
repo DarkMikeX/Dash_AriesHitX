@@ -490,7 +490,7 @@ function HowToUseSection() {
             <span className="text-[#E62429]">Installation</span> Guide
           </h2>
           <p className="text-lg text-[#A1A1AA]">
-            Get started with AriesXHit in just 5 simple steps
+            Get started with AriexHitX in just 5 simple steps
           </p>
         </motion.div>
 
@@ -577,7 +577,7 @@ function DownloadSection({ handleDownload }) {
           </h2>
 
           <p className="text-lg text-[#A1A1AA] mb-8 max-w-xl mx-auto">
-            Download AriesXHit v3.0 now and experience the future of Stripe automation
+            Download AriexHitX v3.0 now and experience the future of Stripe automation
           </p>
 
           {/* Specs */}
@@ -639,7 +639,7 @@ function Footer() {
               className="h-10 w-10 rounded-full object-cover"
             />
             <span className="text-[#A1A1AA] text-sm">
-              © 2025 AriesXHit. All rights reserved.
+              © 2025 AriexHitX. All rights reserved.
             </span>
           </div>
 
@@ -661,7 +661,7 @@ function Footer() {
         {/* Disclaimer */}
         <div className="mt-8 pt-8 border-t border-white/5 text-center">
           <p className="text-xs text-[#52525B] max-w-2xl mx-auto">
-            AriesXHit is a professional automation tool. Use responsibly and in accordance with applicable laws and terms of service. 
+            AriexHitX is a professional automation tool. Use responsibly and in accordance with applicable laws and terms of service. 
             The developers are not responsible for any misuse of this software.
           </p>
         </div>
