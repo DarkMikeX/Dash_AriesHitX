@@ -1,0 +1,158 @@
+{
+  "identity": {
+    "persona": "E1 - The Anti-AI Designer",
+    "theme": "Spider-Man Tech (Symbiote/Miles Morales Vibe)",
+    "tone": "Aggressive, Elite, High-Voltage, Cinematic",
+    "core_concept": "The Ultimate Power Tool for Stripe - Wrapped in Vibranium & Webbing"
+  },
+  "typography": {
+    "headings": {
+      "family": "Chakra Petch",
+      "weights": ["700", "600"],
+      "usage": "Hero titles, Section headers",
+      "style": "uppercase tracking-tighter"
+    },
+    "body": {
+      "family": "Rajdhani",
+      "weights": ["400", "500", "600"],
+      "usage": "Paragraphs, Features, UI elements",
+      "style": "tracking-wide"
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "usage": "Code snippets, technical specs"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "base": "#050505",
+        "card": "#0A0A0A",
+        "surface": "#111111"
+      },
+      "primary": {
+        "main": "#E62429",
+        "hover": "#FF3333",
+        "glow": "rgba(230, 36, 41, 0.6)"
+      },
+      "accent": {
+        "silver": "#E1E1E1",
+        "chrome": "#A0A0A0",
+        "dark_web": "#1A1A1A"
+      },
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "#A1A1AA",
+        "muted": "#52525B"
+      }
+    },
+    "gradients": {
+      "hero_glow": "radial-gradient(circle at center, rgba(230, 36, 41, 0.15) 0%, transparent 70%)",
+      "metallic": "linear-gradient(135deg, #E1E1E1 0%, #A0A0A0 100%)",
+      "dark_glass": "linear-gradient(180deg, rgba(20, 20, 20, 0.8) 0%, rgba(10, 10, 10, 0.9) 100%)"
+    }
+  },
+  "layout": {
+    "grid_system": "Bento Grid (Aggressive)",
+    "container": "max-w-7xl mx-auto px-6",
+    "spacing": {
+      "section_gap": "py-24 or py-32",
+      "element_gap": "gap-8"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": {
+        "style": "bg-primary-main hover:bg-primary-hover text-white font-bold uppercase tracking-widest clip-path-slant shadow-[0_0_20px_rgba(230,36,41,0.4)] transition-all duration-300 hover:scale-105",
+        "icon": "DownloadIcon"
+      },
+      "telegram": {
+        "style": "border border-accent-chrome/30 text-accent-silver hover:bg-accent-chrome/10 hover:border-primary-main/50 transition-all uppercase text-sm font-bold tracking-wider backdrop-blur-sm"
+      }
+    },
+    "cards": {
+      "feature": {
+        "style": "bg-background-card border border-white/5 hover:border-primary-main/50 transition-colors duration-500 overflow-hidden relative group rounded-xl",
+        "effect": "Red glow on hover from bottom"
+      }
+    },
+    "visual_enhancers": {
+      "particles": "Spider-Web configuration (white/silver lines, low opacity, connected)",
+      "glitch": "On main hero text 'ARIESXHIT'",
+      "borders": "1px solid rgba(255,255,255,0.1) with glowing corners"
+    }
+  },
+  "image_urls": {
+    "logo_placeholder": {
+      "url": "https://images.unsplash.com/photo-1645833752297-bdd63db489f9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHwzRCUyMGNocm9tZSUyMHNpbHZlciUyMG1ldGFsbGljJTIwbGV0dGVyJTIwQSUyMGxvZ298ZW58MHx8fHwxNzcxMzk5Nzk3fDA&ixlib=rb-4.1.0&q=85",
+      "desc": "Metallic Silver 'A' logo placeholder"
+    },
+    "hero_bg": {
+      "url": "https://images.unsplash.com/photo-1567360425618-1594206637d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHJlZCUyMGJsYWNrJTIwdGVjaG5vbG9neSUyMHNwaWRlciUyMHdlYiUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcxMzk5Nzk0fDA&ixlib=rb-4.1.0&q=85",
+      "desc": "Abstract Red/Black texture for overlays"
+    }
+  },
+  "motion": {
+    "libraries": ["framer-motion", "react-tsparticles", "tsparticles-engine", "tsparticles-slim"],
+    "entrance": {
+      "hero": "Staggered fade-up + Glitch effect on title",
+      "features": "Fade in with scale-up (0.95 -> 1.0)",
+      "scroll": "Parallax effect on background elements"
+    },
+    "interactions": {
+      "hover": "Cards lift, borders glow red, text shifts color"
+    }
+  },
+  "sections_structure": [
+    {
+      "name": "Header",
+      "elements": ["Logo (Left)", "Telegram Buttons (Right) - 'Main Channel' & 'Backup Channel'"]
+    },
+    {
+      "name": "Hero",
+      "elements": ["Giant 3D Logo", "Glitch Title 'ARIESXHIT'", "Subtitle 'The Ultimate Stripe Automation Tool'", "Primary CTA 'Download Extension'", "Secondary CTA 'How to Use'"],
+      "bg": "Particles Web Effect"
+    },
+    {
+      "name": "Features",
+      "layout": "Bento Grid",
+      "items": ["Auto Hitter", "Stripe Integration", "Fast Execution", "Secure", "Cloud Sync", "Anti-Detect"]
+    },
+    {
+      "name": "HowToUse",
+      "layout": "Step-by-step vertical timeline",
+      "style": "Cyberpunk terminal style steps"
+    },
+    {
+      "name": "Download",
+      "style": "Minimalist, focus on giant red button",
+      "elements": ["Version Info", "Direct Download Button"]
+    },
+    {
+      "name": "Footer",
+      "elements": ["Contact: @MikeyyFrr", "Copyright 2025"]
+    }
+  ],
+  "accessibility": {
+    "contrast": "High contrast white on black. Red used for emphasis, not body text.",
+    "focus": "Visible red ring focus states",
+    "reduced_motion": "Disable particles and heavy transitions if preferred"
+  },
+  "instructions_to_main_agent": [
+    "INSTALL: npm install framer-motion react-tsparticles tsparticles-engine tsparticles-slim lucide-react clsx tailwind-merge",
+    "FONT: Add '@fontsource/chakra-petch' and '@fontsource/rajdhani' or import from Google Fonts in index.css",
+    "THEME: Force DARK MODE. Do not implement light mode toggle.",
+    "PARTICLES: Config 'links' to true to create the spider-web effect. Color: #ffffff (opacity 0.2).",
+    "TELEGRAM: Use actual buttons, not just icons. Label them 'Join Channel 1', 'Join Channel 2'.",
+    "LOGO: Use the provided placeholder image but treat it as the 'Metallic A'. animate it to float.",
+    "NO SHADCN: Build custom components using Tailwind to match the unique aesthetic. Shadcn is too standard.",
+    "CRITICAL: Do not ask user for clarification. Use your best judgment to fill gaps."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Avoid 'AI Slop' - generic centered layouts.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Every interaction needs micro-animations.",
+    "Never use AI assistant emojis.",
+    "Use data-testid for all interactive elements."
+  ]
+}
