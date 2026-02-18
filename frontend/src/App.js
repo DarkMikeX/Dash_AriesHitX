@@ -156,7 +156,7 @@ function Header({ isScrolled, scrollToSection }) {
           >
             <img 
               src={LOGO_URL} 
-              alt="AriesXHit Logo" 
+              alt="AriexHitX Logo" 
               className="h-10 w-auto"
             />
           </motion.div>
@@ -214,7 +214,7 @@ function HeroSection({ handleDownload, scrollToSection }) {
         >
           <img 
             src={LOGO_URL} 
-            alt="AriesXHit" 
+            alt="AriexHitX" 
             className="w-40 h-40 sm:w-56 sm:h-56 mx-auto logo-float object-cover rounded-full border-2 border-[#E62429]/30 shadow-[0_0_40px_rgba(230,36,41,0.3)]"
             data-testid="hero-logo"
           />
@@ -446,7 +446,7 @@ function HowToUseSection() {
     {
       step: "01",
       title: "Download Extension",
-      description: "Click the download button to get the AriesXHit extension package (.zip file)",
+      description: "Click the download button to get the AriexHitX extension package (.zip file)",
       code: "ariesxhit-extension.zip",
     },
     {
@@ -635,7 +635,7 @@ function Footer() {
           <div className="flex items-center gap-4">
             <img 
               src={LOGO_URL} 
-              alt="AriesXHit" 
+              alt="AriexHitX" 
               className="h-10 w-10 rounded-full object-cover"
             />
             <span className="text-[#A1A1AA] text-sm">
