@@ -226,12 +226,12 @@ function HeroSection({ handleDownload, scrollToSection }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="hero-title font-bold tracking-tighter glitch mb-6"
-          data-text="ARIESXHIT"
+          data-text="AriexHitX"
           data-testid="hero-title"
         >
-          <span className="gradient-text">ARIES</span>
-          <span className="text-[#E62429]">X</span>
-          <span className="gradient-text">HIT</span>
+          <span className="gradient-text">Ariex</span>
+          <span className="text-[#E62429]">Hit</span>
+          <span className="gradient-text">X</span>
         </motion.h1>
 
         {/* Subtitle */}
