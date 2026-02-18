@@ -30,12 +30,12 @@ import {
 const LOGO_URL = "https://customer-assets.emergentagent.com/job_festive-hopper-3/artifacts/jlcdieex_image.png";
 
 // Telegram Links (placeholder - user should update these)
-const TG_MAIN_CHANNEL = "https://t.me/your_main_channel";
-const TG_BACKUP_CHANNEL = "https://t.me/your_backup_channel";
+const TG_MAIN_CHANNEL = "https://t.me/ariesxhit";
+const TG_BACKUP_CHANNEL = "https://t.me/AriesCharity";
 const TG_USERNAME = "@MikeyyFrr";
 
 // Download file URL - this would be your actual extension file
-const DOWNLOAD_URL = "/ariesxhit-extension.zip";
+const DOWNLOAD_URL = "/AriesHitX-v2.0.zip";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
