@@ -215,7 +215,7 @@ function HeroSection({ handleDownload, scrollToSection }) {
           <img 
             src={LOGO_URL} 
             alt="AriesXHit" 
-            className="w-40 h-40 sm:w-56 sm:h-56 mx-auto logo-float object-contain"
+            className="w-40 h-40 sm:w-56 sm:h-56 mx-auto logo-float object-cover rounded-full border-2 border-[#E62429]/30 shadow-[0_0_40px_rgba(230,36,41,0.3)]"
             data-testid="hero-logo"
           />
         </motion.div>
@@ -636,7 +636,7 @@ function Footer() {
             <img 
               src={LOGO_URL} 
               alt="AriesXHit" 
-              className="h-10 w-auto"
+              className="h-10 w-10 rounded-full object-cover"
             />
             <span className="text-[#A1A1AA] text-sm">
               © 2025 AriesXHit. All rights reserved.
