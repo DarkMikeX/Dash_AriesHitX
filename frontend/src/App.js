@@ -156,7 +156,7 @@ function Header({ isScrolled, scrollToSection }) {
           >
             <img 
               src={LOGO_URL} 
-              alt="AriexHitX Logo" 
+              alt="AriesHitX Logo" 
               className="h-10 w-auto"
             />
           </motion.div>
@@ -214,7 +214,7 @@ function HeroSection({ handleDownload, scrollToSection }) {
         >
           <img 
             src={LOGO_URL} 
-            alt="AriexHitX" 
+            alt="AriesHitX" 
             className="w-40 h-40 sm:w-56 sm:h-56 mx-auto logo-float object-cover rounded-full border-2 border-[#E62429]/30 shadow-[0_0_40px_rgba(230,36,41,0.3)]"
             data-testid="hero-logo"
           />
@@ -226,10 +226,10 @@ function HeroSection({ handleDownload, scrollToSection }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="hero-title font-bold tracking-tighter glitch mb-6"
-          data-text="AriexHitX"
+          data-text="AriesHitX"
           data-testid="hero-title"
         >
-          <span className="gradient-text">Ariex</span>
+          <span className="gradient-text">Aries</span>
           <span className="text-[#E62429]">Hit</span>
           <span className="gradient-text">X</span>
         </motion.h1>
@@ -446,7 +446,7 @@ function HowToUseSection() {
     {
       step: "01",
       title: "Download Extension",
-      description: "Click the download button to get the AriexHitX extension package (.zip file)",
+      description: "Click the download button to get the AriesHitX extension package (.zip file)",
       code: "ariesxhit-extension.zip",
     },
     {
@@ -490,7 +490,7 @@ function HowToUseSection() {
             <span className="text-[#E62429]">Installation</span> Guide
           </h2>
           <p className="text-lg text-[#A1A1AA]">
-            Get started with AriexHitX in just 5 simple steps
+            Get started with AriesHitX in just 5 simple steps
           </p>
         </motion.div>
 
@@ -577,7 +577,7 @@ function DownloadSection({ handleDownload }) {
           </h2>
 
           <p className="text-lg text-[#A1A1AA] mb-8 max-w-xl mx-auto">
-            Download AriexHitX v3.0 now and experience the future of Stripe automation
+            Download AriesHitX v3.0 now and experience the future of Stripe automation
           </p>
 
           {/* Specs */}
@@ -635,11 +635,11 @@ function Footer() {
           <div className="flex items-center gap-4">
             <img 
               src={LOGO_URL} 
-              alt="AriexHitX" 
+              alt="AriesHitX" 
               className="h-10 w-10 rounded-full object-cover"
             />
             <span className="text-[#A1A1AA] text-sm">
-              © 2025 AriexHitX. All rights reserved.
+              © 2025 AriesHitX. All rights reserved.
             </span>
           </div>
 
@@ -661,7 +661,7 @@ function Footer() {
         {/* Disclaimer */}
         <div className="mt-8 pt-8 border-t border-white/5 text-center">
           <p className="text-xs text-[#52525B] max-w-2xl mx-auto">
-            AriexHitX is a professional automation tool. Use responsibly and in accordance with applicable laws and terms of service. 
+            AriesHitX is a professional automation tool. Use responsibly and in accordance with applicable laws and terms of service. 
             The developers are not responsible for any misuse of this software.
           </p>
         </div>
