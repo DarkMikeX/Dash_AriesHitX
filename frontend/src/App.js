@@ -35,7 +35,7 @@ const TG_BACKUP_CHANNEL = "https://t.me/AriesCharity";
 const TG_USERNAME = "@MikeyyFrr";
 
 // Download file URL - this would be your actual extension file
-const DOWNLOAD_URL = "/AriesHitX v3.0.zip";
+const DOWNLOAD_URL = "/AriesHitX_v3.5.zip";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
